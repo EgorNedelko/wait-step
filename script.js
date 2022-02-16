@@ -24,5 +24,5 @@ window.addEventListener('DOMContentLoaded', () => {
       newElem.setAttribute('value', '5s-delayed btn')
       newElem.setAttribute('id', 'delayedBtn')
       document.querySelector('.container').append(newElem)
-   }, 5000)
+   }, 10000)
 })
